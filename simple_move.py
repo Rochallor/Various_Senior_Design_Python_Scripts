@@ -1,17 +1,18 @@
-#========================================================================================
-# File Name: 	  simple_move
-# Author: 	    Khira Morgan
-# Project:	    Senior Design Fall 2017
+#==============================================================================
+# File Name: 	simple_move
+# Author: 	   Khira Morgan
+# Project:	   Senior Design Fall 2017
 # 
-# Description:	This function will analyze a simple move, update the new board 
-#		            positions from the old board positions, and return the updated board.
+# Description: This function will analyze a simple move, update the new board 
+#		         positions from the old board positions, and return the updated 
+#              board.
 # Inputs: 
 # 	       i.   oldboard = 2D list of old board positions
 # 	       ii.  new_blank is a 1D list with two elements designating the square
-#		            that the piece was moved from -- occupied->space
-# 	       iii. new_occupied is a 1D list with two elements designating the square
-#		            that the piece was moved to -- space->occupied
-#========================================================================================
+#		         that the piece was moved from -- occupied->space
+# 	       iii. new_occupied is a 1D list with two elements designating the 
+#              square that the piece was moved to -- space->occupied
+#==============================================================================
 
 def simple_move(oldboard, new_blank, new_occupied):
 
