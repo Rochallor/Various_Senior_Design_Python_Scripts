@@ -31,7 +31,7 @@ def updateBoard(oldboard,newboard):
     elif space2black == 0 and black2space == 1 and white2space == 0 and white2black == 1:
         print('capture')
     elif space2black == 2 and black2space == 2 and white2space == 0 and white2black == 0:
-        print('castling')
+        print('castling') # ***send K or Q to indicate king- or queenside castling
     elif space2black == 1 and black2space == 1 and white2space == 1 and white2black == 0:
         print('en passent')
     else:
